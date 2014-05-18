@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="sk">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>Pozor, silne návykové: GRUNT.js</title>
+
+        <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+        <meta name="author" content="Bartek Szopka" />
+
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+        <link href="impress.js/css/impress-demo.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="impress.js/favicon.png" />
+        <link rel="apple-touch-icon" href="impress.js/apple-touch-icon.png" />
+
+        <link href="main.css" rel="stylesheet" />
+    </head>
+    <body class="impress-not-supported">
+
+        <!--
+            For example this fallback message is only visible when there is `impress-not-supported` class on body.
+        -->
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+
+        <div id="impress">
+
+            <div class="step slide softec-slide" data-x="-1280" data-y="-1500">
+                <header class="front">
+                    <h1 class="title">Grunt.js</h1>
+                </header>
+                <section>
+                    <h1 style="margin-left: 30px;">
+                        The Javascript Task Runner
+                    </h1>
+                    <h3 style="position: absolute;right: 50px;bottom: 84px;font-size:1.5em">
+                        Lukáš Chudý
+                    </h3>
+                </section>
+                <footer class="front">
+
+                </footer>
+            </div>
+            <div class="step slide softec-slide" data-x="0" data-y="-1500">
+                <header>
+                    <span>Standardna situacia</span>
+                </header>
+                <section>
+
+                </section>
+                <footer>
+
+                </footer>
+            </div>
+            <div id="factory" class="step factory-container" data-x="200" data-y="-800" data-z="-3000" data-scale="1">
+                <b>
+                    Release
+                </b>
+                <b>
+                    kopirovat
+                </b>
+                <b> vlozit </b>
+                
+                
+                <div class="factory">
+
+                </div>
+                <div class="box">
+                </div>
+            </div>
+
+
+            <!--            <div id="bored" class="step" data-x="-1000" data-y="-1500">
+                            <div class="img-grunt">
+                                &nbsp;
+                            </div>
+                            <div style="height: 500px;display:block;">
+                                <q>GRUNT</q>
+                            </div>
+            
+                        </div>-->
+            <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+                <span class="try">then you should try</span>
+                <h1>NPM.js<sup>*</sup></h1>
+                <span class="footnote"><sup>*</sup> no rhyme intended</span>
+            </div>
+            <div class="step" data-x="0" data-y="0" data-scale="100">
+                <span class="try">then you should try</span>
+                <h1>Node.js<sup>*</sup></h1>
+                <span class="footnote"><sup>*</sup> no rhyme intended</span>
+            </div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+
+        <script>
+            if ("ontouchstart" in document.documentElement) {
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+
+        <script src="impress.js/js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
