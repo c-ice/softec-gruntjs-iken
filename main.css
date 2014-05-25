@@ -18,8 +18,8 @@ body {
 }
 
 .softec-slide {
-    width: 1280px;
-    height: 800px;
+    width: 1920px;
+    height: 1080px;
     padding: 0;
     border: 0;
 }
@@ -31,13 +31,14 @@ body {
     height: 176px;
     font-size: 3em;
     color: white;
+    padding: 0.5em;
 }
 
 .title {
     position: absolute;
-    top: 18%;
+    top: 19%;
     left: 8%;
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 .softec-slide footer {
@@ -54,13 +55,13 @@ body {
 .softec-slide header.front {
     background-image: url(header_frontpage.png);
     background-repeat: no-repeat;
-    height: 436px;
+    height: 655px;
 }
 
 .softec-slide footer.front {
     background-image: url(footer_frontpage.png);
     background-repeat: no-repeat;
-    height: 65.33px;
+    height: 98px;
     position: absolute;
     bottom: 0;
 }
@@ -72,7 +73,7 @@ body {
 }
 
 .softec-slide section h1 {
-    font-size: 80px;
+    font-size: 90px;
 }
 
 /* Presentation */
@@ -123,7 +124,7 @@ body {
 }
 
 .factory-container {
-    width: 1280px;
+    width: 1920px;
     min-height: 500px;
     background-color: #ead9a1;
     padding: 0;
