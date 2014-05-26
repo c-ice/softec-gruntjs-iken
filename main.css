@@ -75,6 +75,18 @@ body {
 
 .softec-slide section {
     height: 100%;
+    padding-left: 2em;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.4em;
 }
 
 .softec-slide section h1 {
@@ -326,3 +338,9 @@ body {
     display: inline-block;
     margin-top: 50px;
 }
+
+.list {
+    list-style: disc;
+    line-height: 2em;
+}
+
